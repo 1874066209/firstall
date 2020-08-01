@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+body{
+    font-family: "Microsoft YaHei","Arial","Times New Roman","微软雅黑";
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
+p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #54252d;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+a{
+    color: #54252d;
+    text-decoration: none;
+}
+a:hover{
+    color: pink;
+}
+.f1{
+    float；left;
+}
+.clear{
+    clear: both;
+}
+/*导航样式*/
+header{
+    background: #f7f8f6;
+    min-width: 1200px;
+}
+header nav{
+    /*子容器*/
+    float: top;
+    width: 1200px;
+    height: 62px;
+    margin: 0 auto;
+    background-color: transparent;
+    /*opacity:0.4;*/
+}
+header nav ul{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+header nav ul li{
+    float: left;
+    width: 300px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+}
+header nav ul li:hover{
+    color: red;
+}
+header nav ul span{
+    display: block;
+    font-size: 12px;
+}
+header .logo{
+    width: 170px;
+    height: 42px;
+    /*box-shadow: 5px 5px 5px #757476;*/
+    /*border-radius: 50%;*/
+    /*padding-top: 25px;*/
+    /*margin-top: -35px;*/
+    /*background:#f7f8f6;*/
+    /*position:absolute;*/
+    float: left;
+    margin: 0 auto;
+}
+.banner{
+    min-width: 1200px;
+}
+article section{
+    background: pink;
+    border-bottom: 2px solid deeppink;
+}
+article section .photo{
+    padding-right: 200px;
+    float: left;
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+}
+article section .div{
+    padding-left: 200px;
+    line-height: 600px;
+    margin: 0 auto;
+    display: inline-block;
+}
+footer{
+    background-color: deeppink;
+    width: 100%;
+    height: 100px;
+    /*padding；0 auto;*/
+    line-height: 100px;
+    padding-left: 650px;
+}
+
+

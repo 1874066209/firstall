@@ -1,0 +1,25 @@
+
+<!--<>视频播放器<!-->
+<video id="myvideo" controls src='{{src}}' enable-danmu danmu-btn autoplay
+danmu-list="{{danmuList}}" ></video>
+<!--<>弹幕<!-->
+<view class="danmuArea">
+   <input type="text" placeholder="请输入弹幕内容" bindinput="getDanmu"></input>
+   <button bindtap='sendDanmu'>发送弹幕</button>
+</view>
+<view class="videoList" >
+  <view class="videoBar" wx:for="{{List}}" wx:key="id" 
+  data-url='{{item.url_1}}'
+  bindtap='playvideo'>
+     <image src='http://pic.616pic.com/ys_bnew_img/00/09/00/vjMEtav9wW.jpg'></image>
+     <text>{{item.title}}</text>
+  </view>
+</view>
+<view style='width:"100%"'>
+  <view class="videoBar" data-url='{{item.url_1}}'bindtap='playvideo_1'>
+     <image src='http://pic.616pic.com/ys_bnew_img/00/09/00/vjMEtav9wW.jpg'></image>
+     <text>播放本地视频</text>
+  </view>
+</view>
+
+
